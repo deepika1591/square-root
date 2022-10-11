@@ -1,0 +1,22 @@
+import java.lang.*;
+import java.util.*;
+
+public class Main{
+     public static void main(String[]args){
+         Scanner sc = new Scanner(System.in);
+          int A= sc.nextInt();
+          int c=0;
+          for(int i=1;i<A;i++){
+                if(i*i==A) {
+                     c=i;}
+          }
+                if (c>0){     
+                   System.out.println(c+" is square root of "+ A); }
+             
+                else 
+                System.out.println(A+" is not a perfect square.");
+         
+          
+     }   
+    
+}
