@@ -1,0 +1,23 @@
+import java.lang.*;
+import java.util.*;
+
+public class Main{
+     public static void main(String[]args){
+         Scanner sc = new Scanner(System.in);
+          double A= sc.nextInt();
+          double ans=0;
+          double squareroot=0;
+          
+          squareroot=Math.sqrt(A);
+          ans= Math.ceil(squareroot);
+          
+          if((squareroot-ans)==0){
+             System.out.println(ans+" is square root of "+ A);       
+          }
+          else 
+                System.out.println(A+" is not a perfect square.");
+         
+          
+     }   
+    
+}
